@@ -1,5 +1,5 @@
 <template>
-  <transition name="cart">
+
     <div v-for="item in store.state.cart" :key="item.id" class="cart__item">
     <div class="cart__item-img">
       <img class="pizza-block__image" :src="item.imgUrl" alt="Pizza" />
@@ -76,7 +76,7 @@
       </div>
     </div>
   </div>
-  </transition>
+
  
 </template>
 
